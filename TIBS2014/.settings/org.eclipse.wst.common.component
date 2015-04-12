@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TIBS2014">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jersey-server-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-server-1.6/jersey-server-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore-4.2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpcore-4.2.2/httpcore-4.2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient-4.2.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpclient-4.2.3/httpclient-4.2.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jcl-over-slf4j-1.6.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jcl-over-slf4j-1.6.4/jcl-over-slf4j-1.6.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-1.6/gson-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="icu4j-4.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/icu4j-4.0.1/icu4j-4.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.27-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.27-bin/mysql-connector-java-5.1.27-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xercesImpl-2.11.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xercesImpl-2.11.0/xercesImpl-2.11.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="asm-3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/asm-3.1/asm-3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1.3/commons-logging-1.1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xml-apis-1.4.01.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xml-apis-1.4.01/xml-apis-1.4.01">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="iri-0.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/iri-0.7/iri-0.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jena-2.6.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jena-2.6.4/jena-2.6.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-core-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-core-1.6/jersey-core-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-log4j12-1.6.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-log4j12-1.6.4/slf4j-log4j12-1.6.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.6.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.6.4/slf4j-api-1.6.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.16.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.2.16/log4j-1.2.16">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-codec-1.6/commons-codec-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-bundle-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-bundle-1.6/jersey-bundle-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="TIBS2014"/>
+        <property name="java-output-path" value="/TIBS2014/build/classes"/>
+    </wb-module>
+</project-modules>
