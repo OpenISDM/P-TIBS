@@ -1,0 +1,46 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#" > 
+  <rdf:Description rdf:about="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Domain_http://D2.nctu.edu.tw/">
+    <j.0:hasDomainName>D2</j.0:hasDomainName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Device_2e:33:9c:fd:85:9b">
+    <j.0:belongsTo rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Domain_http://D3.nctu.edu.tw/"/>
+    <j.0:ownedBy rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Person_http://D3.nctu.edu.tw/person123"/>
+    <j.0:hasAlias>Tb14</j.0:hasAlias>
+    <j.0:hasID>2e:33:9c:fd:85:9b</j.0:hasID>
+    <j.0:hasDeviceIDtype>MAC address</j.0:hasDeviceIDtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Person_http://D3.nctu.edu.tw/person123">
+    <j.0:belongsTo rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Domain_http://D3.nctu.edu.tw/"/>
+    <j.0:hasLegalName>person123</j.0:hasLegalName>
+    <j.0:hasID>658325700</j.0:hasID>
+    <j.0:hasPersonIDtype>Passport</j.0:hasPersonIDtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Domain_http://D3.nctu.edu.tw/">
+    <j.0:hasDomainName>D3</j.0:hasDomainName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Document_454c794d-24cb-4892-9455-c4e8c443b679">
+    <j.0:hasTransportSession rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#TransportSession_0a87e720-31b5-4b2d-b440-0ec8a2ea3d5e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Device_c6:de:f1:f5:48:17">
+    <j.0:belongsTo rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Domain_http://D2.nctu.edu.tw/"/>
+    <j.0:ownedBy rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Person_http://D2.nctu.edu.tw/person89"/>
+    <j.0:hasAlias>Tb20</j.0:hasAlias>
+    <j.0:hasID>c6:de:f1:f5:48:17</j.0:hasID>
+    <j.0:hasDeviceIDtype>MAC address</j.0:hasDeviceIDtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Person_http://D2.nctu.edu.tw/person89">
+    <j.0:belongsTo rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Domain_http://D2.nctu.edu.tw/"/>
+    <j.0:hasLegalName>person89</j.0:hasLegalName>
+    <j.0:hasID>U253052527</j.0:hasID>
+    <j.0:hasPersonIDtype>Tax ID</j.0:hasPersonIDtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#TransportSession_0a87e720-31b5-4b2d-b440-0ec8a2ea3d5e">
+    <j.0:hasOccurAt>1426847494035</j.0:hasOccurAt>
+    <j.0:hasDestination rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Device_2e:33:9c:fd:85:9b"/>
+    <j.0:hasSource rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Device_c6:de:f1:f5:48:17"/>
+    <j.0:isTransportSessionOf rdf:resource="http://pet.cs.nctu.edu.tw/ontology/openisdm/infoflow#Document_454c794d-24cb-4892-9455-c4e8c443b679"/>
+    <j.0:hasUUID>0a87e720-31b5-4b2d-b440-0ec8a2ea3d5e</j.0:hasUUID>
+  </rdf:Description>
+</rdf:RDF>
