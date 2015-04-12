@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<linearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <EditText
+        android:id="@+id/domain_edittext"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:ems="10"
+    	android:hint="domain name"
+    	android:inputType="text" >
+        
+        <requestFocus />
+    </EditText>
+</linearLayout>

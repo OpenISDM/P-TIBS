@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="lib" path="jni/org.haggle.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/libs/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/libs/gson-2.2.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/libs/gson-2.2.4-sources.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/libs/org.json-20120521.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/gson-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/jersey-bundle-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/jersey-core-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/jersey-server-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/virtjdbc3.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/virtjdbc4.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/virt_jena2.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="/home/jack/TIBS/TIBS_20140608/WEB-INF/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/gson-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/jersey-bundle-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/jersey-core-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/jersey-server-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/org.haggle.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/virtjdbc3.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/virtjdbc4.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/virt_jena2.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/jni/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="/home/jack/workspace/PhotoShare/libs/jena-core-2.7.3.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom">
+  <target name="-pre-build">
+    <fail message="Could not find libs/org.haggle.jar. You should copy it from ../../src/libhaggle/jni/org.haggle.jar to libs/. Then rerun the build command.">
+      <condition>
+	<not>
+	  <available file="libs/org.haggle.jar"/>
+	</not>
+      </condition>
+    </fail>
+  </target>
+</project>

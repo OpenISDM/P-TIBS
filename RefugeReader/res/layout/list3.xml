@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_location"
+        android:textColor="@drawable/red"
+        android:textSize="20sp" />
+    
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "25sp"  />
+    
+    <TextView android:id="@+id/phone3" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "25sp"  />
+
+	<TextView android:id="@+id/longitude3" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "25sp"  />
+	
+	<TextView android:id="@+id/latitude3" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "25sp"  />
+
+	<TextView android:id="@+id/address3" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "25sp"  />
+	
+	<TextView android:id="@+id/blankline3" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "25sp"  />
+	
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/near_location"
+	    android:textColor="@drawable/red"
+	    android:textSize="20sp" />
+	
+	<Spinner
+        android:id="@+id/spinner_near3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "25sp"  />
+    
+    <TextView android:id="@+id/phone_near3" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "25sp"  />
+
+	<TextView android:id="@+id/longitude_near3" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "25sp"  />
+	
+	<TextView android:id="@+id/latitude_near3"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "25sp"  />
+	
+	<TextView android:id="@+id/address_near3" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "25sp"  />
+	
+</LinearLayout>

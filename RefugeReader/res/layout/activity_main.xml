@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choice_net"
+        android:textSize = "28sp"
+        tools:context=".MainActivity" />
+
+     
+    <Button android:id="@+id/by_internet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="By Internet" />
+    
+    <Button android:id="@+id/by_intranet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="By Intranet" />
+	-->
+    
+    <Button android:id="@+id/by_self"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Refuge Location" />
+ 
+    <!--
+    <Button android:id="@+id/share_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="share MAD" />
+            -->
+    
+    <Button android:id="@+id/set_domain_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Device Information" />
+    
+    <Button android:id="@+id/device_shutdown_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Device will power-off" />
+    
+    <Button android:id="@+id/remove_refuge_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove Refuge data" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="This machine is in domain:"
+        android:textSize = "20sp"
+        tools:context=".MainActivity" />
+    
+    <TextView android:id="@+id/show_domain" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="This machine user's name:"
+        android:textSize = "20sp"
+        tools:context=".MainActivity" />
+    
+    <TextView android:id="@+id/show_person" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="This machine user's ID type:"
+        android:textSize = "20sp"
+        tools:context=".MainActivity" />
+    
+    <TextView android:id="@+id/show_idType" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="This machine user's ID number:"
+        android:textSize = "20sp"
+        tools:context=".MainActivity" />
+    
+    <TextView android:id="@+id/show_idNumber" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="This machine's name:"
+        android:textSize = "20sp"
+        tools:context=".MainActivity" />
+    
+    <TextView android:id="@+id/show_deviceName" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView android:id="@+id/blank1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView android:id="@+id/blank2" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView android:id="@+id/blank3" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView android:id="@+id/tag_count" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView android:id="@+id/beacon_count" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView android:id="@+id/newest_tag_name" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+    
+    <TextView android:id="@+id/newest_tag_time" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text=""
+		android:textSize = "20sp"  />
+
+</LinearLayout>
